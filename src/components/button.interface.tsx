@@ -1,6 +1,6 @@
-import { ButtonVariant } from "./button.styles";
+import { ButtonColor } from "./button.styles";
 
 export interface ButtonProps {
-  variant?: ButtonVariant;
+  bgColor?: ButtonColor;
   //variant?: "Filled" | "Outlined" | "Ghost" | "Text" | "Disable" | "Loading";
 }

@@ -1,6 +1,6 @@
 import { ButtonProps } from "./button.interface";
 import { ButtonContainer } from "./button.styles";
 
-export const Button = ({ variant = "primary" }: ButtonProps) => {
-  return <ButtonContainer variant={variant}>enviar</ButtonContainer>;
+export const Button = ({ bgColor = "primary" }: ButtonProps) => {
+  return <ButtonContainer bgColor={bgColor}>enviar</ButtonContainer>;
 };
