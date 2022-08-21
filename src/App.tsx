@@ -1,3 +1,14 @@
+import { Button } from "./components/Button";
+
 export function App() {
-  return <h1>sim</h1>;
+  return (
+    <>
+      <Button color="danger" />
+      <Button color="primary" />
+      <Button color="secundary" />
+      <Button color="sucess" />
+      <Button color="warning" />
+      <Button />
+    </>
+  );
 }
